@@ -1,9 +1,4 @@
 def decode():
-   
-   
-
-
-
     print("Decoding Code: ")
     a = input("Enter the Message: ")
     b = a.split()
@@ -32,4 +27,3 @@ def decode():
     print("The code is Decode")
     print(Decode)
 
-decode()
