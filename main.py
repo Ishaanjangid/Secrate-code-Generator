@@ -39,7 +39,7 @@ if X == 1:
       c = b + a
       c = F + c + L
     d.append(c)
-    
+
 
   for i in d:
     str += i + ' '

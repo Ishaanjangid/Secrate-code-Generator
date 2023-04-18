@@ -30,4 +30,5 @@ def coding():
 
     print("The code is Ready :")
     print(str)
+
 coding()
