@@ -1,8 +1,9 @@
-
+# This is a secrat code generator
 
 
 import random as rn
 
+# Welcome Screen
 intro = "'Welcome to the Secret Code Generator'"
 print(intro.center(50))
 das = '______________________________________'
@@ -15,6 +16,7 @@ print("For Decoding Secrate Code: Type '2'")
 print()
 X = int(input("Enter: "))
 
+# This part will make Secrate code
 if X == 1:
   print("Making Code: ")
   a = input("Enter the string: ")
@@ -27,20 +29,25 @@ if X == 1:
   str = ''
   for i in b:
     if len(i) <= 3:
+      
       c = i[::-1]
 
     else:
+      
       a = i[0]
       b = i[1:]
       c = b + a
       c = F + c + L
     d.append(c)
+    
 
   for i in d:
     str += i + ' '
 
   print("The code is Ready :")
   print(str)
+
+# This part will Decode the Secrate code
 elif X == 2:
   print("Decoding Code: ")
   a = input("Enter the Message: ")
@@ -66,6 +73,8 @@ elif X == 2:
 
   print("The code is Decode")
   print(Decode)
+
+# This will exit the program
 else:
   print("Exit")
   
